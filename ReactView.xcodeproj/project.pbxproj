@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00A3D90E26B8A77F005B9EE8 /* ReactView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A3D90C26B8A77F005B9EE8 /* ReactView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00A3D91826B8A794005B9EE8 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3D91626B8A794005B9EE8 /* ReactionView.swift */; };
+		00A3D91926B8A794005B9EE8 /* Reaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3D91726B8A794005B9EE8 /* Reaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00A3D90926B8A77F005B9EE8 /* ReactView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A3D90C26B8A77F005B9EE8 /* ReactView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
 		00A3D90D26B8A77F005B9EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A3D91626B8A794005B9EE8 /* ReactionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		00A3D91726B8A794005B9EE8 /* Reaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +50,20 @@
 		00A3D90B26B8A77F005B9EE8 /* ReactView */ = {
 			isa = PBXGroup;
 			children = (
+				00A3D91526B8A784005B9EE8 /* Classes */,
 				00A3D90C26B8A77F005B9EE8 /* ReactView.h */,
 				00A3D90D26B8A77F005B9EE8 /* Info.plist */,
 			);
 			path = ReactView;
+			sourceTree = "<group>";
+		};
+		00A3D91526B8A784005B9EE8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00A3D91726B8A794005B9EE8 /* Reaction.swift */,
+				00A3D91626B8A794005B9EE8 /* ReactionView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +108,7 @@
 				TargetAttributes = {
 					00A3D90826B8A77F005B9EE8 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -130,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A3D91926B8A794005B9EE8 /* Reaction.swift in Sources */,
+				00A3D91826B8A794005B9EE8 /* ReactionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +278,7 @@
 		00A3D91226B8A77F005B9EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mauro.ReactView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +303,7 @@
 		00A3D91326B8A77F005B9EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
