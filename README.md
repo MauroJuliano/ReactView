@@ -13,14 +13,7 @@ pod 'ReactView', :git => 'https://github.com/MauroJuliano/ReactView.git'
 
 <h2>Usage</h2>
 
-Storyboard
-Create a new UITabBarController in your storyboard.
-
-Set the class of the UITabBarController to CustomTabBarController in your Storyboard or nib.
-
-Add a custom image icon and title for UITabBarItem of each child ViewContrroller
-
-If you need cutom color for each tab set CBTabBarItem class to tab bar items and use tintColor property
+ ![](https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/231224330_4062810683847099_2173169985710801914_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=maFz8CMEK1sAX-ZMvET&_nc_ht=scontent.fmgf1-1.fna&oh=7b15f90e6f489aa843272c42aa429d22&oe=610E89FC)
 
 <h3> Obs: </h3>
 This pod was created for study purpose only
