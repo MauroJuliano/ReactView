@@ -1,6 +1,6 @@
-# Simple-TabBar
+# ReactView
 
-![Alt Text](https://media.giphy.com/media/yv72Sl1sudCmrA0hpy/giphy.gif)
+![Alt Text](https://media.giphy.com/media/bGNxJvQlyqomnC9mKo/giphy.gif)
 
 <h2>Requirements</h2>
 
@@ -9,7 +9,7 @@ xCode 10
 
 <h2>Installation</h2>
 Cocoa Pods
-pod 'Simple-TabBar', :git => 'https://github.com/MauroJuliano/Simple-TabBar.git'
+pod 'ReactView', :git => 'https://github.com/MauroJuliano/ReactView.git'
 
 <h2>Usage</h2>
 
@@ -26,4 +26,4 @@ If you need cutom color for each tab set CBTabBarItem class to tab bar items and
 This pod was created for study purpose only
 
 License
-SimpleTabbar is available under the MIT license. See the LICENSE file for more info.
+ReactView is available under the MIT license. See the LICENSE file for more info.
