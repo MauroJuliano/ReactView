@@ -13,7 +13,7 @@ pod 'ReactView', :git => 'https://github.com/MauroJuliano/ReactView.git'
 
 <h2>Usage</h2>
 
- ![](https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/231224330_4062810683847099_2173169985710801914_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=maFz8CMEK1sAX-ZMvET&_nc_ht=scontent.fmgf1-1.fna&oh=7b15f90e6f489aa843272c42aa429d22&oe=610E89FC)
+ ![](https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/231224330_4062810683847099_2173169985710801914_n.jpg?_nc_cat=108&ccb=1-4&_nc_sid=730e14&_nc_ohc=wLU7S-Pcs-UAX8NF9zy&_nc_ht=scontent.fmgf1-1.fna&oh=849cb85a00f5b94b72b1664688b5f81c&oe=61186D3C)
 
 <h3> Obs: </h3>
 This pod was created for study purpose only
